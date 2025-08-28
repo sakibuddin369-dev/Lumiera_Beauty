@@ -3,24 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Thanaka Shop</title>
+  <title>Lumeira Beauty</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
   <!-- Navbar -->
-  <header class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+  <header class="bg-rose-800 shadow-md fixed top-0 left-0 w-full z-50">
     <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
       <!-- Logo -->
-      <div class="text-2xl font-bold text-indigo-600">🌿 Thanaka</div>
+      <div class="text-2xl font-bold text-orange-600">🌿 Lumeira Beauty</div>
 
       <!-- Menu (Desktop) -->
       <nav class="hidden md:flex space-x-6">
-        <a href="#home" class="hover:text-indigo-600">Home</a>
-        <a href="#products" class="hover:text-indigo-600">Products</a>
-        <a href="#profile" class="hover:text-indigo-600">Profile</a>
-        <a href="#about" class="hover:text-indigo-600">About</a>
-        <a href="#contact" class="hover:text-indigo-600">Contact</a>
+        <a href="#home" class="hover:text-rose-600">Home</a>
+        <a href="#products" class="hover:text-rose-600">Products</a>
+        <a href="#profile" class="hover:text-rose-600">Profile</a>
+        <a href="#about" class="hover:text-rose-600">About</a>
+        <a href="#contact" class="hover:text-rose-600">Contact</a>
       </nav>
 
       <!-- Hamburger (Mobile) -->
@@ -30,22 +30,22 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div id="mobile-menu" class="hidden bg-white md:hidden px-6 pb-4 space-y-2">
-      <a href="#home" class="block hover:text-indigo-600">Home</a>
-      <a href="#products" class="block hover:text-indigo-600">Products</a>
-      <a href="#profile" class="block hover:text-indigo-600">Profile</a>
-      <a href="#about" class="block hover:text-indigo-600">About</a>
-      <a href="#contact" class="block hover:text-indigo-600">Contact</a>
+    <div id="mobile-menu" class="hidden bg-rose-800 md:hidden px-6 pb-4 space-y-2">
+      <a href="#home" class="block hover:text-rose-600">Home</a>
+      <a href="#products" class="block hover:text-rose-600">Products</a>
+      <a href="#profile" class="block hover:text-rose-600">Profile</a>
+      <a href="#about" class="block hover:text-rose-600">About</a>
+      <a href="#contact" class="block hover:text-rose-600">Contact</a>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section id="home" class="pt-28 bg-indigo-50">
+  <section id="home" class="pt-28 bg-rose-50">
     <div class="max-w-7xl mx-auto grid md:grid-cols-2 items-center gap-10 px-6 py-16">
       <div>
-        <h1 class="text-4xl md:text-5xl font-extrabold text-indigo-700">Welcome to Thanaka</h1>
+        <h1 class="text-4xl md:text-5xl font-extrabold text-rose-700">Welcome to Lumeira Beauty</h1>
         <p class="mt-4 text-lg text-gray-600">Traditional beauty and skincare secrets from Myanmar, naturally crafted for you.</p>
-        <a href="#products" class="inline-block mt-6 bg-indigo-600 text-white px-6 py-3 rounded-lg shadow hover:bg-indigo-700">Shop Now</a>
+        <a href="#products" class="inline-block mt-6 bg-rose-600 text-white px-6 py-3 rounded-lg shadow hover:bg-indigo-700">Shop Now</a>
       </div>
       <div>
         <img src="https://i.ibb.co/vmSpp0X/thanaka-cream.jpg" alt="Thanaka Welcome" class="rounded-2xl shadow-lg w-full" />
@@ -61,19 +61,19 @@
       <!-- Grid -->
       <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
         <!-- Product Card -->
-        <div onclick="openModal('Thanaka Powder')" class="cursor-pointer bg-gray-100 p-6 rounded-2xl shadow hover:shadow-xl transition">
+        <div onclick="openModal('Thanaka Powder')" class="cursor-pointer bg-rose-400 p-6 rounded-2xl shadow hover:shadow-xl transition">
           <img src="https://i.ibb.co/J37pMkF/thanaka-powder.jpg" alt="Thanaka Powder" class="rounded-xl mb-4" />
           <h3 class="font-bold text-lg">Thanaka Powder</h3>
           <p class="text-gray-600 text-sm mt-2">Natural skincare powder from Thanaka bark.</p>
         </div>
 
-        <div onclick="openModal('Thanaka Cream')" class="cursor-pointer bg-gray-100 p-6 rounded-2xl shadow hover:shadow-xl transition">
+        <div onclick="openModal('Thanaka Cream')" class="cursor-pointer bg-rose-400 p-6 rounded-2xl shadow hover:shadow-xl transition">
           <img src="https://i.ibb.co/mTVfV4k/thanaka-cream2.jpg" alt="Thanaka Cream" class="rounded-xl mb-4" />
           <h3 class="font-bold text-lg">Thanaka Cream</h3>
           <p class="text-gray-600 text-sm mt-2">Moisturizing cream for smooth skin.</p>
         </div>
 
-        <div onclick="openModal('Thanaka Face Pack')" class="cursor-pointer bg-gray-100 p-6 rounded-2xl shadow hover:shadow-xl transition">
+        <div onclick="openModal('Thanaka Face Pack')" class="cursor-pointer bg-rose-400 p-6 rounded-2xl shadow hover:shadow-xl transition">
           <img src="https://i.ibb.co/1QZ4M0h/thanaka-facepack.jpg" alt="Thanaka Face Pack" class="rounded-xl mb-4" />
           <h3 class="font-bold text-lg">Thanaka Face Pack</h3>
           <p class="text-gray-600 text-sm mt-2">Deep cleansing and refreshing face pack.</p>
@@ -85,8 +85,8 @@
   <!-- Profile Section -->
   <section id="profile" class="py-16 bg-gray-50">
     <div class="max-w-4xl mx-auto px-6 text-center">
-      <img src="https://i.ibb.co/W5L1RQd/profile.jpg" alt="Profile" class="w-32 h-32 mx-auto rounded-full border-4 border-indigo-600 shadow-lg mb-4">
-      <h3 class="text-2xl font-bold text-indigo-700">Founder: Aye Chan</h3>
+      <img src="https://i.ibb.co/W5L1RQd/profile.jpg" alt="Profile" class="w-32 h-32 mx-auto rounded-full border-4 border-rose-600 shadow-lg mb-4">
+      <h3 class="text-2xl font-bold text-indigo-700">Founder: </h3>
       <p class="mt-2 text-gray-600">Bringing Myanmar's centuries-old skincare traditions to the world with natural Thanaka products.</p>
     </div>
   </section>
@@ -94,7 +94,7 @@
   <!-- About Section -->
   <section id="about" class="py-16 bg-white">
     <div class="max-w-5xl mx-auto px-6 text-center">
-      <h2 class="text-3xl font-bold text-indigo-700 mb-4">About Thanaka</h2>
+      <h2 class="text-3xl font-bold text-rose-700 mb-4">About Thanaka</h2>
       <p class="text-gray-700 leading-relaxed">
         Thanaka is a traditional cosmetic paste made from grinding the bark of the Thanaka tree (native to Myanmar).
         It has been used for centuries as a natural skincare remedy. Thanaka not only cools the skin but also prevents acne,
@@ -104,10 +104,10 @@
   </section>
 
   <!-- Footer -->
-  <footer id="contact" class="bg-indigo-700 text-white py-10 mt-16">
+  <footer id="contact" class="bg-rose-700 text-white py-10 mt-16">
     <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-10">
       <div>
-        <h3 class="font-bold text-lg">🌿 Thanaka</h3>
+        <h3 class="font-bold text-lg">🌿 Lumeira Beauty</h3>
         <p class="mt-2 text-gray-200">Natural beauty, naturally from Myanmar.</p>
       </div>
       <div>
@@ -121,12 +121,12 @@
       </div>
       <div>
         <h3 class="font-bold text-lg">Contact</h3>
-        <p class="mt-2 text-gray-200">Email: support@thanaka.com</p>
-        <p class="text-gray-200">Phone: +95 123 456 789</p>
+        <p class="mt-2 text-gray-200">Email: </p>
+        <p class="text-gray-200">Phone: </p>
       </div>
     </div>
     <div class="mt-8 text-center text-gray-300 text-sm">
-      © 2025 Thanaka. All Rights Reserved.
+      © 2025 Thanaka. All Rights Reserved.Founded by Studio-X
     </div>
   </footer>
 
@@ -134,7 +134,7 @@
   <div id="modal" class="hidden fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
     <div class="bg-white p-8 rounded-2xl max-w-md text-center relative">
       <button onclick="closeModal()" class="absolute top-2 right-2 text-xl">✖</button>
-      <h3 id="modal-title" class="text-2xl font-bold text-indigo-700 mb-4"></h3>
+      <h3 id="modal-title" class="text-2xl font-bold text-rose-700 mb-4"></h3>
       <p class="text-gray-600">This is a detailed view of the product with more information and purchase options.</p>
     </div>
   </div>
